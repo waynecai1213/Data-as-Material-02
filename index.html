@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Press+Start+2P&family=Roboto+Mono&family=Roboto+Slab&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+<div class="container">
+    <div class="content">
+        <p>Nothing Gold Can Stay</p>
+        <p>By Robert Frost</p>
+        <p>Nature’s first green is gold,</p>
+        <p> Her hardest hue to hold. </p>
+        <p>Her early leaf’s a flower; </p>
+        <p>But only so an hour.</p>
+        <p> Then leaf subsides to leaf.</p>
+        <p> So Eden sank to grief,</p>
+        <p>So dawn goes down to day.</p>
+        <p> Nothing gold can stay.</p>
+    </div>
+</div>
+
+<div class="tab">
+    <button class="tablinks" value="size" onclick="openStyle(event, 'Size')">Font Size</button>
+    <button class="tablinks" value="weight" onclick="openStyle(event, 'Weight')">Font Weight</button>
+    <button class="tablinks" value="typeface" onclick="openStyle(event, 'Typeface')">Typeface</button>
+    <button class="tablinks" value="spacing" onclick="openStyle(event, 'Spacing')">Letter Spacing</button>
+    <button class="tablinks" value="linespace" onclick="openStyle(event, 'LineHeight')">Line Height</button>
+   
+  </div>
+
+<input type="range" min="0" max="4" step="1" value="0" class="slider">
+
+<script src="./js/main.js"></script>
+</body>
+
+</html>
